@@ -1,6 +1,8 @@
+
 *{
     margin: 0;
     padding:0;
+
 }
 #map{
     width: 100%;
@@ -11,7 +13,7 @@ button{
     margin: 15px auto;
     padding: 10px 15px;
     color: white;
-    background-color: #faae27;
+    background-color: #FE5AD9;
     border: 0;
     font-weight: 700;
     border-radius: 2px;
@@ -23,20 +25,21 @@ button:hover,button:focus{
     outline: 0;
 }
 #encuentrame{
-    margin-bottom: 2%; 
+    margin: 0;
 }
 
-/*INPUTS*/
 .input{
  width: 100%;
-text-align: center;
+ text-align: center;
 
 
 }
-/*INDICATIONS*/
+
 .indications{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
+    width: 100%;
+    background-color: #FFD3F5;
 }
 label{
     text-align: right;
@@ -51,7 +54,6 @@ label{
     margin: 0 auto;
 }
 
-/*buttons*/
 button{
     border-radius: 9px;
 }
